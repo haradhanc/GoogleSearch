@@ -1,25 +1,25 @@
 => SpecFlowProject.AvivaSearchFunctionalityFeature.SearchAvivaKeywordInGoogleApplication("Chrome","Aviva","http://www.google.com","5",null)
 Given Open Chrome and start http://www.google.com now
--> done: CommonStepDefinition.GivenOpenChromeAndStartApplication("Chrome", "http://www.google...") (9.3s)
+-> done: CommonStepDefinition.GivenOpenChromeAndStartApplication("Chrome", "http://www.google...") (29.3s)
 When I enter Aviva
--> done: CommonStepDefinition.WhenIEnterAviva("Aviva") (0.1s)
+-> done: CommonStepDefinition.WhenIEnterAviva("Aviva") (0.3s)
 And I click on search button
--> done: AvivaSearchFunctionalitySteps.WhenIClickOnSearchButton() (2.5s)
+-> done: AvivaSearchFunctionalitySteps.WhenIClickOnSearchButton() (2.4s)
 Then Search result is displayed with number of links
 Total number of links are:6
--> done: AvivaSearchFunctionalitySteps.ThenSearchResultIsDisplayedWithNumberOfLinks() (0.1s)
+-> done: AvivaSearchFunctionalitySteps.ThenSearchResultIsDisplayedWithNumberOfLinks() (0.0s)
 And I want to print the 5 in position fifth
 The Text of fifth link is: Aviva - Home | Facebook
 -> done: AvivaSearchFunctionalitySteps.ThenIWantToPrintTheFifthLink(5) (0.1s)
 => SpecFlowProject.AvivaSearchFunctionalityFeature.SearchOtherKeywordInGoogleApplication("Chrome","UK","http://www.google.com","5",null)
 Given Open Chrome and start http://www.google.com now
--> done: CommonStepDefinition.GivenOpenChromeAndStartApplication("Chrome", "http://www.google...") (7.4s)
+-> done: CommonStepDefinition.GivenOpenChromeAndStartApplication("Chrome", "http://www.google...") (9.1s)
 When I enter UK
 -> done: CommonStepDefinition.WhenIEnterAviva("UK") (0.1s)
 And I click on search button
--> done: AvivaSearchFunctionalitySteps.WhenIClickOnSearchButton() (2.8s)
+-> done: AvivaSearchFunctionalitySteps.WhenIClickOnSearchButton() (2.3s)
 Then Search result should display more than fifth number of links
-Total number of links are:9
+Total number of links are:7
 -> done: AvivaSearchFunctionalitySteps.SearchResultShouldDisplayMoreThanFifthNumberOfLinks() (0.1s)
 And I want to print the 5 in position fifth
 The Text of fifth link is: United Kingdom - Wikitravel
